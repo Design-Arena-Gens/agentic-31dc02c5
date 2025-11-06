@@ -1,0 +1,25 @@
+html, body, #__next { height: 100%; }
+body { margin: 0; background: #000; color: #f0f0f0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+* { box-sizing: border-box; }
+
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.65), rgba(0,0,0,0));
+  z-index: 2;
+}
+
+.formula {
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.canvasRoot {
+  position: fixed;
+  inset: 0;
+}
